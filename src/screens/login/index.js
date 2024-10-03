@@ -1,3 +1,5 @@
+import {getFontFamily} from '../../utils/fontFamily';
+
 import React, {Component} from 'react';
 import {
   Text,
@@ -38,7 +40,7 @@ export default class Login extends Component {
     };
     this.passwordInputRef = React.createRef();
   }
-  
+
   correctUsername = 'M@gmail.com';
   correctPassword = '12345678';
 
@@ -242,6 +244,9 @@ export default class Login extends Component {
             }}
             textStyle={{fontSize: 18}}
           />
+          {/* <Text style={{fontFamily: getFontFamily(true, 'bold')}}>
+            My text in the right font family - Montserrat Medium!
+          </Text> */}
         </View>
 
         {/* Account Locked Modal */}

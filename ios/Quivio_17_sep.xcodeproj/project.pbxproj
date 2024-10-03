@@ -12,8 +12,11 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2124F4A1D3F4455DB971909B /* MontserratMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F867729D8F64EA1B3C75048 /* MontserratMedium.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-Quivio_17_sep-Quivio_17_sepTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Quivio_17_sep-Quivio_17_sepTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9114B0451A9741BB9E4F63A3 /* MontserratBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CF350B586914690A9049FED /* MontserratBold.ttf */; };
+		9E4FECEEF0C84E1AA2884C24 /* MontserratRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8DD872DC7104F41B135AEA7 /* MontserratRegular.ttf */; };
 		C91927C3DACCD6B83990E239 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FA0EE6979A3DB2E474DA706E /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
@@ -40,11 +43,14 @@
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Quivio_17_sep/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Quivio_17_sep-Quivio_17_sepTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Quivio_17_sep-Quivio_17_sepTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-Quivio_17_sep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quivio_17_sep.debug.xcconfig"; path = "Target Support Files/Pods-Quivio_17_sep/Pods-Quivio_17_sep.debug.xcconfig"; sourceTree = "<group>"; };
+		4F867729D8F64EA1B3C75048 /* MontserratMedium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MontserratMedium.ttf; path = ../src/assets/fonts/MontserratMedium.ttf; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Quivio_17_sep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quivio_17_sep.release.xcconfig"; path = "Target Support Files/Pods-Quivio_17_sep/Pods-Quivio_17_sep.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Quivio_17_sep-Quivio_17_sepTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quivio_17_sep-Quivio_17_sepTests.debug.xcconfig"; path = "Target Support Files/Pods-Quivio_17_sep-Quivio_17_sepTests/Pods-Quivio_17_sep-Quivio_17_sepTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CF350B586914690A9049FED /* MontserratBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MontserratBold.ttf; path = ../src/assets/fonts/MontserratBold.ttf; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-Quivio_17_sep.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Quivio_17_sep.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Quivio_17_sep/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Quivio_17_sep-Quivio_17_sepTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quivio_17_sep-Quivio_17_sepTests.release.xcconfig"; path = "Target Support Files/Pods-Quivio_17_sep-Quivio_17_sepTests/Pods-Quivio_17_sep-Quivio_17_sepTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8DD872DC7104F41B135AEA7 /* MontserratRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MontserratRegular.ttf; path = ../src/assets/fonts/MontserratRegular.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FA0EE6979A3DB2E474DA706E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Quivio_17_sep/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +133,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				D312D82C60BD476FB3792CC6 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -151,6 +158,17 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-Quivio_17_sep-Quivio_17_sepTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D312D82C60BD476FB3792CC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5CF350B586914690A9049FED /* MontserratBold.ttf */,
+				4F867729D8F64EA1B3C75048 /* MontserratMedium.ttf */,
+				C8DD872DC7104F41B135AEA7 /* MontserratRegular.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +267,9 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				C91927C3DACCD6B83990E239 /* PrivacyInfo.xcprivacy in Resources */,
+				9114B0451A9741BB9E4F63A3 /* MontserratBold.ttf in Resources */,
+				2124F4A1D3F4455DB971909B /* MontserratMedium.ttf in Resources */,
+				9E4FECEEF0C84E1AA2884C24 /* MontserratRegular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

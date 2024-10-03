@@ -17,12 +17,13 @@ export class CustomButton extends Component {
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: 'lightblue',
+    backgroundColor: '#000080',
     padding: 10,
     borderRadius: 5,
     alignItems: 'center',
-    marginVertical: 10,
-    marginHorizontal: 20,
+   borderRadius:20,
+    marginHorizontal: 15,
+    marginTop:15
   },
   buttonText: {
     padding: 10,

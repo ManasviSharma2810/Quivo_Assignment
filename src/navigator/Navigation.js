@@ -19,14 +19,14 @@ export class Navigation extends Component {
       <NavigationContainer>
         <Stack.Navigator >
       
-          <Stack.Screen name="Splash" component={SplashScreen} options={{headerShown: false}}/>
-          <Stack.Screen name="Tutorial" component={TutorialScreen}options={{headerShown: false}} />
-          <Stack.Screen name="Login" component={Login}options={{headerShown: false}} />
-          <Stack.Screen name="Forgot" component={ForgotScreen}options={{headerShown: false}} />
-          <Stack.Screen name="Reset" component={ResetPassword}options={{headerShown: false}} />
+          {/* <Stack.Screen name="Splash" component={SplashScreen} options={{headerShown: false}}/> */}
+          {/* <Stack.Screen name="Tutorial" component={TutorialScreen}options={{headerShown: false}} /> */}
+          {/* <Stack.Screen name="Login" component={Login}options={{headerShown: false}} /> */}
+          {/* <Stack.Screen name="Forgot" component={ForgotScreen}options={{headerShown: false}} /> */}
+          {/* <Stack.Screen name="Reset" component={ResetPassword}options={{headerShown: false}} /> */}
           <Stack.Screen name="Home" component={BottomTab}options={{headerShown: false}} />
-          <Stack.Screen name="Verify" component={VerifyAccountAccess}options={{headerShown: false}} />
-          <Stack.Screen name="PhoneNumber" component={AddPhoneNumber}options={{headerShown: false}} />
+          {/* <Stack.Screen name="Verify" component={VerifyAccountAccess}options={{headerShown: false}} /> */}
+          {/* <Stack.Screen name="PhoneNumber" component={AddPhoneNumber}options={{headerShown: false}} /> */}
  
         </Stack.Navigator>
       </NavigationContainer>

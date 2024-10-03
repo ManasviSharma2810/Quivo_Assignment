@@ -66,7 +66,7 @@ export default class BottomTab extends React.Component {
           name="Menu"
           component={Menu}
           options={{
-            title: 'MENU',
+            title: 'PROFILE',
             tabBarIcon: ({size, focused, color}) => {
               return <Image style={{width: size, height: size}} source={menu} />;
             },
